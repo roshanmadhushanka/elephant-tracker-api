@@ -5,8 +5,8 @@ const serviceAccount = require('../../elephanttracking-1-firebase-adminsdk-nig71
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://qlab-api.firebaseio.com",
-    storageBucket: "gs://qlab-api.appspot.com"
+    databaseURL: "https://elephanttracking-1.firebaseio.com",
+    storageBucket: "gs://elephanttracking-1.appspot.com"
 });
 
 // admin.initializeApp();
